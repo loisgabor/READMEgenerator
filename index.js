@@ -76,7 +76,7 @@ function init() {
       console.log("inside init", data);
       //   function to write README file
       //   writeFile("README.md", generateMarkdown({ ...responses }));
-      writeFile("README.md", generateMarkdown(data));
+      writeFile("READMEtest.md", generateMarkdown(data));
       console.log("after writefile");
     });
 }
